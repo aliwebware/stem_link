@@ -397,7 +397,8 @@ export default function Home() {
 
             <div className="max-w-3xl mx-auto text-gray-700 space-y-2">
               <p className="leading-relaxed text-base text-center">
-                A highlight of the program was the contribution of the brothers <strong>Marcos Monteiro</strong> and <strong>Marcos</strong>, who served as instructors.
+                A highlight of the program was the contribution of the brothers <strong>Marco Filipe Menezes Romero</strong> and <strong>Marco Paulo N. S. Carlos
+</strong>, who served as instructors.
               </p>
 
               <p className="leading-relaxed text-base text-center">
