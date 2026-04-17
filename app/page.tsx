@@ -241,6 +241,11 @@ export default function Home() {
                   American Schools of Angola Hosted First ThinkYoung STEM Robotics Bootcamp in Angola
                 </h1>
                 <div className="h-1 w-24 bg-yellow-400 rounded animate-float opacity-90"></div>
+                <p className="mt-4 text-white text-sm sm:text-base">
+                  <a href="https://www.asangola.com" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-400 underline transition-colors">
+                    www.asangola.com
+                  </a>
+                </p>
               </div>
             </AnimatedSection>
 
@@ -387,24 +392,22 @@ export default function Home() {
               Inspiring Mentorship
             </h2>
 
-            <div className="w-full -mb-14 -mt-14">
+            <div className="w-full -mt-14 pointer-events-none">
               <AnimatedImage
                 src="/MarcosbrothersImg.webp"
                 alt="Marcos Brothers - Instructors"
                 className="w-full h-96 sm:h-screen object-contain"
               />
             </div>
+<div className="max-w-3xl mx-auto text-gray-700 space-y-2 -mt-14 pointer-events-auto">
+  <p className="leading-relaxed text-base text-center">
+    A highlight of the program was the contribution of the brothers <strong>Marco Filipe Menezes Romero</strong>, <strong>Marco Paulo N. S. Carlos</strong> and <strong>Fernando Romeiro</strong>, who served as instructors, representing the <a href="https://ggm-foundation.org/inicio/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">GGMF</a> and the <a href="https://www.instagram.com/p/DWGb38ZEU9R/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Academia GEOSTRATOS</a>.
+  </p>
 
-            <div className="max-w-3xl mx-auto text-gray-700 space-y-2">
-              <p className="leading-relaxed text-base text-center">
-                A highlight of the program was the contribution of the brothers <strong>Marco Filipe Menezes Romero</strong> and <strong>Marco Paulo N. S. Carlos
-</strong>, who served as instructors.
-              </p>
-
-              <p className="leading-relaxed text-base text-center">
-                Their energy, dedication, and engaging teaching style brought enthusiasm and motivation to the students, significantly enriching the overall experience.
-              </p>
-            </div>
+  <p className="leading-relaxed text-base text-center">
+    Their energy, dedication, and engaging teaching style brought enthusiasm and motivation to the students, significantly enriching the overall experience.
+  </p>
+</div>
           </section>
         </AnimatedSection>
 
@@ -582,6 +585,11 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-700 pt-6 text-center">
+            <p className="text-gray-300 text-sm mb-4">
+              <a href="https://www.asangola.com" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 underline transition-colors">
+                www.asangola.com
+              </a>
+            </p>
             <p className="text-gray-400 text-sm">
               © 2026 STEM Robotics Bootcamp. Empowering the next generation of innovators.
             </p>
